@@ -1,0 +1,36 @@
+
+.recipe-card-half-bg {
+	width: 300px;
+	height: 200px;
+	background: url(https://art-lunch.ru/wp-content/uploads/2018/02/Pancakes_01.jpg) center center/cover no-repeat;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.recipe-card {
+	width: 300px;
+	height: 400px;
+	border: 1px solid #c7c7c7;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.recipe-card-content {
+
+	display: flex;
+	flex-direction: column;
+	
+}
+.title {
+	padding: 10px 0px 10px 10px;
+	font-size: 18px;
+}
+
+.subtitle {
+	padding: 0px 0px 25px 10px;
+	font-size: 16px;
+}
+
+.link {
+	
+	padding: 0px 0px 0px 10px;
+	font-size: 14px;
+}

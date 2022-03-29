@@ -1,3 +1,5 @@
+@import url(./recipe-card-style.css);
+
 :root {
 	--main-color: rgb(75, 209, 75);
 }
@@ -6,11 +8,7 @@
 	max-width: 900px;
 	margin: 0 auto;
 	font-family: 'Merriweather';
-	height: auto;
-	background-color:rgb(184, 255, 231);
-	padding: 10px 25px;
-	width: 500px;
-	border-radius: 15px;
+
 }
 
 input {
@@ -19,6 +17,7 @@ input {
 
 a {
 	text-decoration: none;
+	color: black;
 }
 
 a:active {
@@ -29,17 +28,33 @@ hr {
 	background-color: #e8e8e8;
 	margin-top: 19px;
 	margin-bottom: 21px;
-
 	border-bottom: none;
+}
+
+.recipe-form {
+	height: auto;
+	background-color:rgb(184, 221, 255);
+	padding: 10px 25px;
+	width: 500px;
+	border-radius: 15px;
 }
 
 .checklist-form {
 	display: none;
+	height: auto;
+	background-color:rgb(184, 221, 255);
+	padding: 10px 25px;
+	width: 500px;
+	border-radius: 15px;
 }
 
 .main {
 	display: flex;
-}
+	flex-direction: row;
+	align-content: center;
+	flex-wrap: wrap;
+ }
+
 
 .main-title {
 	text-align: center;
@@ -49,18 +64,15 @@ hr {
 	margin-top: 15px;
 }
 
-.ingridient-input-name {
+.ingridient-input-name, .ingridient-input-quantity, .recipe-input-title, .recipe-input-subtitle {
 	height: 25px;
 	font-family: 'Merriweather';
 	border-radius: 5px;
 	border: 1px solid var(--main-color);
 }
 
-.ingridient-input-quantity {
-	height: 25px;
-	font-family: 'Merriweather';
-	border-radius: 5px;
-	border: 1px solid var(--main-color);
+.input-hide {
+	display: none;
 }
 
 .form-button {
