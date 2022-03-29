@@ -1,0 +1,70 @@
+.hero-area {
+	height: 700px;
+	display: flex;
+	align-items: center;
+	background: url(../img/pngwing.com.png) right no-repeat;
+	background-size: contain;
+	width: 100%;
+}
+
+.hero-area-title {
+	width: 700px;
+}
+
+.area-title {
+	font-size: 54px;
+	font-weight: 600;
+	line-height: 65px;
+}
+
+.area-title span {
+	color: #0CA941;
+}
+
+.area-text {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 30px;
+	width: 400px;
+}
+
+.area-text span {
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 34px;
+	color: #0CA941;
+}
+
+.area-input {
+	padding: 30px 0 35px 0;
+}
+
+.area-email {
+	position: absolute;
+
+	height: 65px;
+	width: 472px;
+	border-radius: 6px;
+	border: 1px solid #0ca9406e;
+
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 27px;
+	padding-left: 24px;
+
+}
+
+.area-send-btn {
+	position: relative;
+	left: 348px;
+	top: 6px;
+	height: 53px;
+	width: 120px;
+	border-radius: 6px;
+	background-color: #0CA941;
+	color: #fff;
+	font-size: 21px;
+	font-weight: 500;
+	line-height: 32px;
+	border: none;
+}

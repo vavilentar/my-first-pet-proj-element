@@ -1,11 +1,13 @@
 @import url(./recipe-card-style.css);
+@import url(./about-us.css);
+
 
 :root {
 	--main-color: rgb(75, 209, 75);
 }
 
 [class*="__container"] {
-	max-width: 900px;
+	max-width: 1200px;
 	margin: 0 auto;
 	font-family: 'Merriweather';
 
@@ -15,7 +17,7 @@ input {
 	padding-left: 15px;
 }
 
-a {
+a, .navbar a {
 	text-decoration: none;
 	color: black;
 }
@@ -31,28 +33,53 @@ hr {
 	border-bottom: none;
 }
 
+.navbar-brand {
+	color: black;
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 33px;
+}
+
+.sign-btn {
+	height: 42px;
+	width: 111px;
+	border-radius: 6px;	
+	border: none;
+	background-color: var(--main-color);
+
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 21px;
+	color: white;
+}
+
+.navbar {
+	justify-content: flex-end;
+}
+
 .recipe-form {
 	height: auto;
-	background-color:rgb(184, 221, 255);
+	background-color:rgb(198, 255, 184);
 	padding: 10px 25px;
-	width: 500px;
-	border-radius: 15px;
+	width: 680px;
+	border-radius: 15px;	
 }
 
 .checklist-form {
 	display: none;
 	height: auto;
-	background-color:rgb(184, 221, 255);
+	background-color:rgb(198, 255, 184);
 	padding: 10px 25px;
-	width: 500px;
+	width: 680px;
 	border-radius: 15px;
 }
 
 .main {
 	display: flex;
-	flex-direction: row;
+	flex-direction: row-reverse;
 	align-content: center;
 	flex-wrap: wrap;
+	align-items: flex-start
  }
 
 

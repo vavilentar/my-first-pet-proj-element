@@ -5,53 +5,100 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="https://fonts.googleapis.com/css?family=Merriweather:300,300italic,regular,italic,700,700italic,900,900italic" rel="stylesheet" />
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:300,300italic,regular,italic,700,700italic,900,900italic"
+		rel="stylesheet" />
 	<link rel="shortcut icon" href="./icons/favicon.svg" type="image/png">
 	<link rel="stylesheet" href="/css/style.css">
 	<title>Новый рецепт</title>
 </head>
+<header>
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-2">
+				<a href="#" class="navbar-brand">
+					<img src="./icons/bee-forestgreen.svg" alt="" width="36" height="34"
+						class="d-inline-block align-text-bottom">
+					Bee Recipes
+				</a>
+			</div>
+			<div class="col-8">
+				<nav class="navbar">
+					<a class="nav-link" aria-disabled="false" href="#">Домой</a>
+					<a class="nav-link" aria-disabled="false" href="#">О нас</a>
+					<a class="nav-link" aria-disabled="false" href="#">Рецепты</a>
+					<a class="nav-link" aria-disabled="false" href="#">Контакты</a>
+				</nav>
+			</div>
+			<div class="col-2 ">
+				<button class="sign-btn ">Войти</button>
+			</div>
+		</div>
+	</div>
+</header>
 
 <body>
 	<div class="wrapper">
-		<main class="main">
-			<div class="recipe-form recipe__container">
-				<h2 class="main-title recipe-form-title">Добавить свой рецепт</h2>
-				<hr>
-				<form class="add-ingridient-form">
-					<input required type="text" class="recipe-input-title" placeholder="Введите название">
-					<input required type="text" class="recipe-input-subtitle" placeholder="Введите описание">
-					<button class="form-button recipe-card-btn">Добавить</button>
-
-					<input required type="text" class="ingridient-input-name input-hide" placeholder="Введите ингридиент">
-					<input required type="text" class="ingridient-input-quantity input-hide" placeholder="Введите количество">
-					<button class="form-button add-ingridient-btn input-hide">Добавить</button>
-				</form>
-				<ul class="ingridients-list">
-				</ul>
-			</div>
-			<div class="checklist-form checklist__container">
-				<h2 class="main-title">Ваш список покупок</h2>
-				<hr>
-				<div class="checklist">
-
-				</div>
-			</div>
-
-			<div class="recipe-card recipe-card__container">
-				<div class="recipe-card-content">
-					<div class="recipe-card-half-bg">
-						
-					</div>
-					<div class="recipe-content-text">
-						<h2 class="title recipe-card-title">Название рецепта</h2>
-						<h2 class="subtitle recipe-card-subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, voluptas!</h2>
-						<a href="#" class="link recipe-card-link-details">Подробнее</a>
+		<div class="container">
+			<main class="main">
+				<div class="hero-area hero-area__container">
+					<div class="hero-area-title">
+						<h1 class="area-title">Добавь в свою жизнь больше <span>вкуса!</span></h1>
+						<h2 class="area-text">С нашим сайтом возможно подобрать рецепты на любой вкус исходя
+							из
+							выбранных продуктов!
+							<br> <br>Можно найти даже с <span>одним продуктом</span>! Попробуйте!
+						</h2>
+						<div class="area-input">
+							<input type="email" class="area-email" placeholder="Например 'Свинина'">
+							<button class="area-send-btn">Найти</button>
+						</div>
 					</div>
 				</div>
-			</div>
 
+					<div class="recipe-form recipe__container">
+						<h2 class="main-title recipe-form-title">Добавить свой рецепт</h2>
+						<hr>
+						<form class="add-ingridient-form">
+							<input required type="text" class="recipe-input-title"
+								placeholder="Введите название">
+							<input required type="text" class="recipe-input-subtitle"
+								placeholder="Введите описание">
+							<button class="form-button recipe-card-btn">Добавить</button>
+							<input required type="text" class="ingridient-input-name input-hide"
+								placeholder="Введите ингридиент">
+							<input required type="text" class="ingridient-input-quantity input-hide"
+								placeholder="Введите количество">
+							<button class="form-button add-ingridient-btn input-hide">Добавить</button>
+						</form>
+						<ul class="ingridients-list">
+						</ul>
+					</div>
+
+					<div class="checklist-form checklist__container">
+						<h2 class="main-title">Ваш список покупок</h2>
+						<hr>
+						<div class="checklist">
+						</div>
+					</div>
+
+					<div class="recipe-card recipe-card__container">
+						<div class="recipe-card-content">
+							<div class="recipe-card-half-bg">
+							</div>
+							<div class="recipe-content-text">
+								<h2 class="title recipe-card-title">Название рецепта</h2>
+								<h2 class="subtitle recipe-card-subtitle">Lorem ipsum dolor sit amet consectetur
+									adipisicing elit. Vero, voluptas!</h2>
+								<a href="#" class="link recipe-card-link-details">Подробнее</a>
+							</div>
+						</div>
+					</div>
+				</div>
+		</div>
 		</main>
 	</div class="wrapper">
+	<script src="./js/bootstrap.bundle.min.js"></script>
 	<script src="/js/jquery-3.6.0.min.js"></script>
 	<script src="/js/script.js"></script>
 </body>
