@@ -1,0 +1,95 @@
+:root {
+	--main-color: rgb(75, 209, 75);
+}
+
+[class*="__container"] {
+	max-width: 900px;
+	margin: 0 auto;
+	font-family: 'Merriweather';
+	height: auto;
+	background-color:rgb(184, 255, 231);
+	padding: 10px 25px;
+	width: 500px;
+	border-radius: 15px;
+}
+
+input {
+	padding-left: 15px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:active {
+	color: black;
+}
+
+hr {
+	background-color: #e8e8e8;
+	margin-top: 19px;
+	margin-bottom: 21px;
+
+	border-bottom: none;
+}
+
+.checklist-form {
+	display: none;
+}
+
+.main {
+	display: flex;
+}
+
+.main-title {
+	text-align: center;
+}
+
+.create-printlist-btn {
+	margin-top: 15px;
+}
+
+.ingridient-input-name {
+	height: 25px;
+	font-family: 'Merriweather';
+	border-radius: 5px;
+	border: 1px solid var(--main-color);
+}
+
+.ingridient-input-quantity {
+	height: 25px;
+	font-family: 'Merriweather';
+	border-radius: 5px;
+	border: 1px solid var(--main-color);
+}
+
+.form-button {
+	font-family: 'Merriweather';
+	height: 30px;
+	width: auto;
+	border-radius: 5px;
+	border: 1px solid var(--main-color);
+	background-color: white;
+	cursor: pointer;
+	transition: .3s all ease-in-out;
+}
+
+.form-button:hover {
+	background-color: var(--main-color);
+	color: white;
+}
+
+.ingridient {
+	font-weight: 200;
+	font-size: 16px;
+	padding: 3px 0;
+}
+
+.ingridients-list {
+	list-style-type: circle;
+}
+
+.create-checklist-btn {
+	margin-top: 15px;;
+}
+

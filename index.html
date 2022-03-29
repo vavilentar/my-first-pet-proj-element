@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:300,300italic,regular,italic,700,700italic,900,900italic" rel="stylesheet" />
+	<link rel="shortcut icon" href="./icons/favicon.svg" type="image/png">
+	<link rel="stylesheet" href="/css/style.css">
+	<title>Новый рецепт</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<main class="main">
+			<div class="recipe-form recipe__container">
+				<h2 class="main-title recipe-form-title">Добавить свой рецепт</h2>
+				<hr>
+				<form class="add-ingridient-form">
+					<input required type="text" class="ingridient-input-name" placeholder="Введите название">
+					<input required type="text" class="ingridient-input-quantity" placeholder="Введите количество">
+					<button class="form-button add-ingridient-btn">Добавить</button>
+				</form>
+				<ul class="ingridients-list">
+				</ul>
+			</div>
+			<div class="checklist-form checklist__container">
+				<h2 class="main-title">Ваш список покупок</h2>
+				<hr>
+				<div class="checklist">
+
+				</div>
+			</div>
+		</main>
+	</div class="wrapper">
+	<script src="/js/jquery-3.6.0.min.js"></script>
+	<script src="/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+[class*="__container"] {
+	max-width: 900px;
+	margin: 0 auto;
+	font-family: 'Merriweather';
+
+	padding: 10px 25px;
+	width: 500px;
+	height: auto;
+	border-radius: 15px;
+	border: 1px solid #5f5f5f;
+}
+
